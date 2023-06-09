@@ -7,7 +7,9 @@ public enum RequestPath {
     CREATE("/create"),
     UPDATE_BY_ID("/update/{id}"),
     DELETE_BY_ID("/delete/{id}"),
-    TEST("/TEST");
+    TEST("/TEST"),
+    PET("pet"),
+    PET_PET_ID(PET.getPath()+"/{petId}");
 
     private final String path;
 

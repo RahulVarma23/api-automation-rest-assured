@@ -9,8 +9,8 @@ import static org.practice.api.utils.RandomUtils.*;
 @Builder()
 public class EmployeeDto {
     String name;
-    int age;
-    int salary;
+    long age;
+    long salary;
 
     @Builder
     public static EmployeeDtoBuilder defaultEmployeeBuilder(){

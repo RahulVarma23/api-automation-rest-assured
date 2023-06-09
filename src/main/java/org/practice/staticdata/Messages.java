@@ -3,7 +3,6 @@ package org.practice.staticdata;
 public class Messages {
 
     private Messages() {
-
     }
 
     public static String SUCCESSFULLY_ALL_RECORDS_HAS_BEEN_FETCHED = "Successfully! All records has been fetched.";

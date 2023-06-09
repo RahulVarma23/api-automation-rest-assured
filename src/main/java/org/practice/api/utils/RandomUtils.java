@@ -11,6 +11,4 @@ public class RandomUtils {
     public static int generateIntValue(int charactersCount) {
         return Integer.parseInt(RandomStringUtils.random(charactersCount, false, true));
     }
-
-
 }
